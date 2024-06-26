@@ -1,21 +1,37 @@
 // src/components/Contact.js
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
   return (
-    <div className="bg-gray-900 bg-opacity-75 h-screen flex items-center justify-center">
-      <div className="bg-white bg-opacity-25 p-8 rounded shadow-md flex items-start space-x-8">
-        <h1 className="text-5xl font-bold text-white">Contact Me</h1>
-        <div className="max-w-lg">
-          <p className="text-gray-300 mb-4">
-            Email: <a href="mailto:austintallen07@gmail.com" className="text-red-500 hover:text-red-700">austintallen07@gmail.com</a>
-          </p>
-          <p className="text-gray-300 mb-4">
-            GitHub: <a href="https://github.com/austintylerallen" className="text-red-500 hover:text-red-700">austintylerallen</a>
-          </p>
-          <p className="text-gray-300">
-            LinkedIn: TBA
-          </p>
+    <div className="h-screen flex items-center justify-center">
+      <div className="p-8 rounded shadow-md w-full max-w-2xl mx-auto">
+        <h1 className="text-5xl font-bold text-white font-montserrat mb-6 text-center">Contact Me</h1>
+        <div className="flex flex-col space-y-6">
+          <div className="flex items-center justify-center space-x-4">
+            <FontAwesomeIcon icon={faEnvelope} className="text-red-500 text-2xl" />
+            <p className="text-gray-300 text-lg">
+              <a href="mailto:austintallen07@gmail.com" className="text-red-500 hover:text-red-700">austintallen07@gmail.com</a>
+            </p>
+          </div>
+          <div className="flex items-center justify-center space-x-4">
+            <FontAwesomeIcon icon={faPhone} className="text-red-500 text-2xl" />
+            <p className="text-gray-300 text-lg">+1 (123) 456-7890</p>
+          </div>
+          <div className="flex items-center justify-center space-x-4">
+            <FontAwesomeIcon icon={faGithub} className="text-red-500 text-2xl" />
+            <p className="text-gray-300 text-lg">
+              <a href="https://github.com/austintylerallen" className="text-red-500 hover:text-red-700">GitHub</a>
+            </p>
+          </div>
+          <div className="flex items-center justify-center space-x-4">
+            <FontAwesomeIcon icon={faLinkedin} className="text-red-500 text-2xl" />
+            <p className="text-gray-300 text-lg">
+              <a href="https://linkedin.com/in/austintylerallen" className="text-red-500 hover:text-red-700">LinkedIn</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>

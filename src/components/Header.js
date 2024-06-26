@@ -11,6 +11,7 @@ const Header = () => {
           <Link to="hero" smooth={true} className="cursor-pointer hover:text-red-500">Home</Link>
           <Link to="about" smooth={true} className="cursor-pointer hover:text-red-500">About</Link>
           <Link to="projects" smooth={true} className="cursor-pointer hover:text-red-500">Projects</Link>
+          <Link to="technologies" smooth={true} className="cursor-pointer hover:text-red-500">Technologies</Link>
           <Link to="contact" smooth={true} className="cursor-pointer hover:text-red-500">Contact</Link>
         </nav>
       </div>

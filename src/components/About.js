@@ -3,9 +3,9 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="bg-gray-900 bg-opacity-75 h-screen flex items-center justify-center">
+    <div className="bg-gray-900 bg-opacity-75 h-screen flex items-center justify-center" id="about">
       <div className="bg-white bg-opacity-25 p-8 rounded shadow-md flex items-start space-x-8">
-        <h1 className="text-5xl font-bold text-white">About Me</h1>
+        <h1 className="text-5xl font-bold text-white font-montserrat">About Me</h1>
         <div className="max-w-lg">
           <p className="text-gray-300 mb-4">
             Fully committed to the philosophy of life-long learning, I'm a full stack developer with a deep passion for JavaScript, React, and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover drives my excitement and passion for web development. When I'm not at my computer I like to spend my time reading, keeping fit and playing guitar.
