@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29641618.css",
+    "main.js": "/static/js/main.e0c2474d.js",
+    "static/js/453.dd74556a.chunk.js": "/static/js/453.dd74556a.chunk.js",
+    "static/media/background.gif": "/static/media/background.84303263ad91cdc2007a.gif",
+    "static/media/react-color.svg": "/static/media/react-color.1495a6a0c751ac52af3164f785e64d7b.svg",
+    "static/media/docker-color.svg": "/static/media/docker-color.f9f97b60eb161535b80d3d8ec8e54560.svg",
+    "static/media/cloudinary-color.svg": "/static/media/cloudinary-color.1f353b0d379aafd2f89b2b90d9273b45.svg",
+    "static/media/nodedotjs-color.svg": "/static/media/nodedotjs-color.dd4b66b98a4a174f0db5e89c1189ead6.svg",
+    "static/media/sequelize-color.svg": "/static/media/sequelize-color.044171c5e619e961e4e66e8d868db0af.svg",
+    "static/media/redux-color.svg": "/static/media/redux-color.f00e75102a7095565fdc3515ae2d4cf5.svg",
+    "static/media/sass-color.svg": "/static/media/sass-color.38ad7ebfd34c6207552a49a4bf8a7176.svg",
+    "static/media/handlebarsdotjs-color.svg": "/static/media/handlebarsdotjs-color.cadb017eaf00bae1e082d38cb101c179.svg",
+    "static/media/javascript-color.svg": "/static/media/javascript-color.75fa9cdf8b00c1ddc571fbe57667c38f.svg",
+    "static/media/bootstrap-color.svg": "/static/media/bootstrap-color.ee0c611cd9332c0f84e9ea91e7229fbc.svg",
+    "static/media/github-color.svg": "/static/media/github-color.a882795a1493f3adfcc1c7b4f32b7c69.svg",
+    "static/media/express-color.svg": "/static/media/express-color.1fe18db71806ffcc812c7afb9d667325.svg",
+    "static/media/heroku-color.svg": "/static/media/heroku-color.775b0aea2cd195f652207144b9f1b7e7.svg",
+    "static/media/apollographql-color.svg": "/static/media/apollographql-color.62b065057c477094ce6c2d0c63c71e25.svg",
+    "static/media/graphql-color.svg": "/static/media/graphql-color.520cc591fde466ac2efe0831dc00490c.svg",
+    "static/media/jsonwebtokens-color.svg": "/static/media/jsonwebtokens-color.94c9b47f1d237f34cc8863fcece6e5cd.svg",
+    "static/media/tailwindcss-color.svg": "/static/media/tailwindcss-color.d09fc953e7affe05a4e0202f8596256f.svg",
+    "static/media/mongodb-color.svg": "/static/media/mongodb-color.4a790e2582289412e0a4231ceed7faa4.svg",
+    "static/media/render-color.svg": "/static/media/render-color.adfa8daed8953ac3d601e21c9df62880.svg",
+    "index.html": "/index.html",
+    "static/media/css3-color.svg": "/static/media/css3-color.98daf49e4be2b88d6c17fcd8f30c17d9.svg",
+    "static/media/html5-color.svg": "/static/media/html5-color.74577817dde8fee285d3c8af53312ca6.svg",
+    "static/media/nextdotjs-color.svg": "/static/media/nextdotjs-color.4a7a32d5d86abd10c370e011250fa65c.svg",
+    "static/media/axios-color.svg": "/static/media/axios-color.dcc18546054c874a04cdc9b23c502ab4.svg",
+    "main.29641618.css.map": "/static/css/main.29641618.css.map",
+    "main.e0c2474d.js.map": "/static/js/main.e0c2474d.js.map",
+    "453.dd74556a.chunk.js.map": "/static/js/453.dd74556a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29641618.css",
+    "static/js/main.e0c2474d.js"
+  ]
+}

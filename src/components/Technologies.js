@@ -1,5 +1,3 @@
-// src/components/Technologies.js
-
 import React from 'react';
 
 // Importing SVG icons with the specified naming convention
@@ -58,7 +56,7 @@ const smallerTechnologies = [
 
 const Technologies = () => {
   return (
-    <section className="bg-gray-900 bg-opacity-75 py-16" id="technologies">
+    <section className="bg-gray-900 bg-opacity-50 py-24 section" id="technologies"> {/* Updated padding */}
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-white mb-8">Technologies</h2>
         <div className="max-w-3xl mx-auto">
