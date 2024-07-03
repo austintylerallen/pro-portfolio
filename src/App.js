@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Technologies from './components/Technologies';
 import Header from './components/Header';
-import background from './assets/background.gif';
+import background from './assets/background.mp4';
 import './index.css';
 
 function App() {
@@ -30,15 +30,13 @@ function App() {
 
   return (
     <Router>
-      <div
-        className="min-h-screen bg-fixed"
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
+      <div className="min-h-screen relative">
+        <div className="video-container">
+          <video autoPlay loop muted>
+            <source src={background} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <Header show={showNavbar} />
         <Routes>
           <Route path="/" element={<Home />} />
