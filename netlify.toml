@@ -1,18 +1,15 @@
 [build]
-  publish = "build" 
-  command = "npm run build" 
+  publish = "build"
+  command = "npm run build"
 
-# Redirect settings
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Environment variables
 [build.environment]
   NODE_ENV = "production"
 
-# Add any specific headers if needed
 [[headers]]
   for = "/*"
   [headers.values]
@@ -20,6 +17,5 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
 
-# Example of adding a function directory if you have serverless functions
 [functions]
   directory = "functions"
