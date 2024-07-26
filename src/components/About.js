@@ -1,5 +1,7 @@
 import React from 'react';
 import profilePhoto from '../assets/profile-photo.jpg'; // Ensure the path is correct
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons'; // Import the download icon
 
 const About = () => {
   return (
@@ -15,6 +17,12 @@ const About = () => {
           <p className="text-center md:text-left text-white mb-4">
             Fully committed to the philosophy of life-long learning, I'm a full-stack developer with a deep passion for JavaScript, React, and all things web development. The unique combination of creativity, logic, technology, and never running out of new things to discover drives my excitement and passion for web development. When I'm not at my computer, I like to spend my time researching various subjects, spending time with friends and family, and hanging out with my dog Kalani.
           </p>
+        </div>
+        <div className="mt-6">
+          <a href="/austin-allen-resume.pdf" download className="px-4 py-2 rounded bg-red-500 text-white hover:bg-red-700 inline-flex items-center">
+            <FontAwesomeIcon icon={faDownload} className="mr-2" />
+            Download My Resume
+          </a>
         </div>
       </div>
     </section>
