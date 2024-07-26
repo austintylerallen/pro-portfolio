@@ -1,3 +1,4 @@
+console.log('Starting esbuild...');
 const { build } = require('esbuild');
 const { sassPlugin } = require('esbuild-sass-plugin');
 
