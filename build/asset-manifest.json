@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.29641618.css",
-    "main.js": "/static/js/main.e0c2474d.js",
-    "static/js/453.dd74556a.chunk.js": "/static/js/453.dd74556a.chunk.js",
-    "static/media/background.gif": "/static/media/background.84303263ad91cdc2007a.gif",
+    "main.css": "/static/css/main.4110dbbc.css",
+    "main.js": "/static/js/main.24f0591c.js",
+    "static/js/589.e601a8a5.chunk.js": "/static/js/589.e601a8a5.chunk.js",
+    "static/media/background.mp4": "/static/media/background.86705db9cb8045f5e672.mp4",
+    "static/media/profile-photo.jpg": "/static/media/profile-photo.6687e52636763bf456df.jpg",
+    "static/media/austinallen-full-stack-dev.pdf": "/static/media/austinallen-full-stack-dev.fc170285a606b014d2ba.pdf",
     "static/media/react-color.svg": "/static/media/react-color.1495a6a0c751ac52af3164f785e64d7b.svg",
     "static/media/docker-color.svg": "/static/media/docker-color.f9f97b60eb161535b80d3d8ec8e54560.svg",
     "static/media/cloudinary-color.svg": "/static/media/cloudinary-color.1f353b0d379aafd2f89b2b90d9273b45.svg",
@@ -28,12 +30,12 @@
     "static/media/html5-color.svg": "/static/media/html5-color.74577817dde8fee285d3c8af53312ca6.svg",
     "static/media/nextdotjs-color.svg": "/static/media/nextdotjs-color.4a7a32d5d86abd10c370e011250fa65c.svg",
     "static/media/axios-color.svg": "/static/media/axios-color.dcc18546054c874a04cdc9b23c502ab4.svg",
-    "main.29641618.css.map": "/static/css/main.29641618.css.map",
-    "main.e0c2474d.js.map": "/static/js/main.e0c2474d.js.map",
-    "453.dd74556a.chunk.js.map": "/static/js/453.dd74556a.chunk.js.map"
+    "main.4110dbbc.css.map": "/static/css/main.4110dbbc.css.map",
+    "main.24f0591c.js.map": "/static/js/main.24f0591c.js.map",
+    "589.e601a8a5.chunk.js.map": "/static/js/589.e601a8a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29641618.css",
-    "static/js/main.e0c2474d.js"
+    "static/css/main.4110dbbc.css",
+    "static/js/main.24f0591c.js"
   ]
 }
