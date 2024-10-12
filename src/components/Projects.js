@@ -13,7 +13,24 @@ const projects = [
     link: 'https://procrastinot-austin.onrender.com/', // Replace with the actual link to your project
     image: '/procrastinot-gif.gif', // Use the public directory path
   },
-  // Add more projects as needed
+  {
+    title: 'Rave Connect',
+    description: 'A social media platform for ravers and promoters to connect and engage with each other. Features include post sharing, event management, and RSVP functionality.',
+    link: 'https://rave-connect.onrender.com/', // Replace with the actual link to your project
+    image: '/rave-connect.gif', // Use the public directory path
+  },
+  {
+    title: 'Brewery Buzz',
+    description: 'An interactive map-based application to discover local breweries, explore their offerings, and share reviews. Uses Google Maps API for location-based features.',
+    link: 'https://sara-hines.github.io/group-project-1/', // Updated link to Brewery Buzz
+    image: '/brewery-buzz.gif', // Use the public directory path
+  },
+  {
+    title: 'Spendwise',
+    description: 'A financial application that integrates with Plaid to show graphical representations and insights into your spending habits and account information.',
+    link: 'https://plaid-financial-insights.onrender.com', // Replace with the actual link to your Spendwise project
+    image: '/spendwise1.gif', // Use the public directory path
+  }
 ];
 
 const Projects = () => {
