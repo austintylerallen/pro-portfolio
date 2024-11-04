@@ -1,4 +1,5 @@
 import React from 'react';
+import useFadeInOnScroll from '../hooks/useFadeInOnScroll'; // Import the hook
 
 // Importing SVG icons with the specified naming convention
 import html5Icon from '../assets/html5-color.svg';
@@ -55,15 +56,16 @@ const smallerTechnologies = [
 ];
 
 const Technologies = () => {
+  const techRef = useFadeInOnScroll(0.5); // Use the hook
+
   return (
-    <section className="bg-gray-900 bg-opacity-50 py-24 section" id="technologies"> {/* Updated padding */}
+    <section ref={techRef} className="bg-gray-900 bg-opacity-50 py-24 section fade-in" id="technologies">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-white mb-8">Technologies</h2>
         <div className="max-w-3xl mx-auto">
           <p className="text-center text-white mb-12">
             Throughout my projects, I have utilized a wide range of technologies to build robust and scalable applications. Below are some of the main and additional technologies I have experience with:
           </p>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             {mainTechnologies.slice(0, 3).map((tech) => (
               <div key={tech.name} className="flex flex-col items-center">
@@ -81,7 +83,6 @@ const Technologies = () => {
             ))}
           </div>
         </div>
-
         <div className="relative overflow-hidden py-8 marquee-container">
           <div className="animate-marquee flex space-x-8">
             {smallerTechnologies.concat(smallerTechnologies).map((tech, index) => (

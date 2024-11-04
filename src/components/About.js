@@ -1,13 +1,13 @@
 import React from 'react';
-import profilePhoto from '../assets/profile-photo.jpg'; // Ensure the path is correct
-import portfolioPDF from '../assets/austinallen-full-stack-dev.pdf'; // Ensure the PDF is located correctly
-// import html5Icon from '../assets/html5-color.svg'; // Example icon
-// import css3Icon from '../assets/css3-color.svg'; // Example icon
-// import javascriptIcon from '../assets/javascript-color.svg'; // Example icon
+import profilePhoto from '../assets/profile-photo.jpg';
+import portfolioPDF from '../assets/austinallen-full-stack-dev.pdf';
+import useFadeInOnScroll from '../hooks/useFadeInOnScroll'; // Import your custom hook
 
 const About = () => {
+  const aboutRef = useFadeInOnScroll(0.5); // Use your hook with threshold
+
   return (
-    <section className="bg-gray-900 bg-opacity-50 py-24 section" id="about">
+    <section ref={aboutRef} className="bg-gray-900 bg-opacity-50 py-24 section fade-in" id="about">
       <div className="container mx-auto px-4 flex flex-col items-center">
         <h1 className="text-4xl font-bold text-center text-white mb-8">About Me</h1>
         
@@ -26,13 +26,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* <div className="flex space-x-6 mt-8">
-          <img src={html5Icon} alt="HTML5" className="h-12 hover:scale-110 transition-transform" />
-          <img src={css3Icon} alt="CSS3" className="h-12 hover:scale-110 transition-transform" />
-          <img src={javascriptIcon} alt="JavaScript" className="h-12 hover:scale-110 transition-transform" />
-        </div> */}
-
-        {/* Download Portfolio Button */}
         <a
           href={portfolioPDF}
           download="austinallen-full-stack-dev.pdf"
