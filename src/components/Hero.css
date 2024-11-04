@@ -1,0 +1,28 @@
+.typing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Ensure elements are hidden before fade-in */
+  .hidden {
+    opacity: 0;
+    transform: translateY(0); /* No shifting */
+  }
+  
+  /* Combined fade-in for all elements */
+  .fade-in-all {
+    opacity: 0;
+    animation: fadeInAll 1.5s forwards;
+  }
+  
+  /* Keyframes for the fade-in animation */
+  @keyframes fadeInAll {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
